@@ -10,17 +10,13 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gradient-to-r from-teal-400 via-teal-600 to-teal-800 p-4 shadow-lg flex items-center justify-between relative">
-      {/* Left Side */}
       <div className="text-white text-3xl font-extrabold animate-pulse">Welcome User</div>
       
-      {/* Center Content */}
       <div className="p-1 text-white text-3xl font-semibold bounce-animation">
         Careerदोस्त
       </div>
 
-      {/* Right Side */}
       <div className="flex items-center space-x-4 relative">
-        {/* Profile Text */}
         <button 
           onClick={toggleDropdown} 
           className="text-white text-xl font-semibold focus:outline-none"
@@ -94,7 +90,7 @@ const Section = ({ section }) => {
 const Chatbot = () => (
   <div className="fixed bottom-4 right-4 flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-full shadow-lg hover:shadow-2xl transition-shadow duration-300 animate-bounce">
     <button className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-gray-100 transition-colors duration-300">
-      <i className="fas fa-robot text-green-600 text-xl"></i> {/* Font Awesome robot icon */}
+      <i className="fas fa-robot text-green-600 text-xl"></i> 
     </button>
   </div>
 );
