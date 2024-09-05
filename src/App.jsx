@@ -44,7 +44,7 @@ const Card = ({ title, section, imageUrl }) => (
         <img src={imageUrl} alt={title} className="w-full h-full object-cover rounded-lg" />
       </div>
       <h2 className="text-2xl font-bold mb-2 text-gray-900">{title}</h2>
-      <p className="text-blue-600 text-lg font-medium">View {title}</p>
+      <p className="text-blue-600 text-lg font-medium">Click here to view  {title} aligned to your goal</p>
       <div className="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-70 rounded-lg opacity-0 transition-opacity duration-300 hover:opacity-100">
         <div className="text-center text-white p-4">
           <h2 className="text-xl font-bold mb-2">{title}</h2>
@@ -61,7 +61,7 @@ const Home = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <Card title="Resources" section="resources" imageUrl="https://images.pexels.com/photos/1148399/pexels-photo-1148399.jpeg?auto=compress&cs=tinysrgb&w=600" />
         <Card title="College Info" section="college-info" imageUrl="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=600" />
-        <Card title="MNT Connect" section="mnto-connect" imageUrl="https://images.pexels.com/photos/6325984/pexels-photo-6325984.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <Card title="Mentor" section="mnto-connect" imageUrl="https://images.pexels.com/photos/6325984/pexels-photo-6325984.jpeg?auto=compress&cs=tinysrgb&w=600" />
       </div>
     </div>
     <div className="flex justify-center mt-16"> {/* Add margin-top to push content down */}
